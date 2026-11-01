@@ -1,10 +1,11 @@
 {
   "name": "@red-cup-engineering/hive-fleet-observation-service",
-  "version": "0.1.1",
+  "version": "0.1.2-dev.1",
   "type": "module",
   "description": "Pure, exact Hive fleet observation projection without provider, credentials or resident operation.",
   "exports": {
-    ".": "./src/fleet-observation.mjs"
+    ".": "./src/fleet-observation.mjs",
+    "./observation-mark": "./src/observation-mark.mjs"
   },
   "files": [
     "src",
@@ -12,6 +13,8 @@
     "package.json"
   ],
   "dependencies": {
+    "@lenticule-science/hive-fleet-observation-specification-service": "0.1.1-dev.1",
+    "@red-cup-engineering/signcell": "0.13.0",
     "@red-cup-engineering/exact-number-data-service": "0.1.1"
   },
   "repository": {

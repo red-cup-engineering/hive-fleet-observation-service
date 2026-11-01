@@ -30,6 +30,12 @@ the resident fleet server, credential vault, signers, game integrations or legac
 Aagaard receiving protocols. Those other capabilities remain migration material
 in the machine snapshot; this recovery does not claim their retirement.
 
-The exact-number supplier is version 0.1.0 in Red Cup's computer-data source.
+The `./observation-mark` face creates and admits a SignCell typed mark using
+Science's original observation schema. Operations retains its original import
+face as a re-export. Admission refuses a known aggregate when any contributing
+account value is unknown, independently for each balance and execution count.
+This is structural admission, not proof of a sum, source truth or settlement.
+
+The exact-number supplier is version 0.1.1 in Red Cup's computer-data source.
 Both packages can be packed and supplied together to a consumer before registry
 publication. A machine checkout and its folder ancestry are not dependencies.
